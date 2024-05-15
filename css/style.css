@@ -66,3 +66,69 @@ section p:nth-child(2) {
   padding: 10px;
   word-spacing: 10px;
 }
+
+.shadows {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.shadow {
+  width: 25%;
+  height: 400px;
+  padding: 20px;
+  border: 2px solid rgb(147, 227, 254);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset 0px 0px 10px 2px rgb(18, 173, 225);
+}
+
+.shadow h3 {
+  color: aqua;
+  text-shadow: 2px 2px;
+  font-size: 35px;
+}
+
+.linegreit {
+  width: 100%;
+  height: 500px;
+  /* border: 2px solid ; */
+  padding: 0px;
+  border-radius: 10px;
+  background: linear-gradient(pink red blue);
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: linear-gradient(40deg, red, pink, yellow);
+}
+
+.radial {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.radialgradient {
+  width: 50%;
+  justify-content: center;
+  height: 500px;
+  background: radial-gradient(blue, red, gold, black, white, purple);
+  border-radius: 100%;
+}
+
+.linegreit .gradient:hover {
+  background-color: white;
+}
